@@ -1,0 +1,52 @@
+# Composer
+/vendor/
+/composer.lock
+
+# PHPUnit
+/.phpunit.result.cache
+/phpunit.xml
+
+# PHPStan
+/phpstan.neon
+
+# Testing
+/tests/coverage/
+/tests/.phpunit.result.cache
+
+# IDEs
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+/build/
+/dist/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Laravel specific (if applicable)
+/storage/
+/bootstrap/cache/
