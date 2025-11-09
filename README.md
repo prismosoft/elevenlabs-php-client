@@ -13,13 +13,13 @@ A production-ready PHP client for the ElevenLabs API, providing access to text-t
 ## Installation
 
 ```bash
-composer require adblast/elevenlabs-php-client
+composer require prismosoft/elevenlabs-php-client
 ```
 
 ## Usage
 
 ```php
-use AdBlast\ElevenLabs\ElevenLabsClient;
+use ElevenLabs\ElevenLabsClient;
 
 $client = ElevenLabsClient::factory()
     ->withApiKey('your-api-key')

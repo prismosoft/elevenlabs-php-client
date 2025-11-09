@@ -1,11 +1,11 @@
 <?php
 
-use AdBlast\ElevenLabs\Exceptions\ApiException;
-use AdBlast\ElevenLabs\Resources\TextToSpeech;
-use AdBlast\ElevenLabs\Support\Transporter\BaseUri;
-use AdBlast\ElevenLabs\Support\Transporter\Headers;
-use AdBlast\ElevenLabs\Support\Transporter\HttpTransporter;
-use AdBlast\ElevenLabs\Support\Transporter\Response;
+use ElevenLabs\Exceptions\ApiException;
+use ElevenLabs\Resources\TextToSpeech;
+use ElevenLabs\Support\Transporter\BaseUri;
+use ElevenLabs\Support\Transporter\Headers;
+use ElevenLabs\Support\Transporter\HttpTransporter;
+use ElevenLabs\Support\Transporter\Response;
 use GuzzleHttp\Psr7\Request;
 use Mockery;
 

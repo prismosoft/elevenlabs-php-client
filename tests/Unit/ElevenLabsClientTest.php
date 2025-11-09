@@ -1,13 +1,13 @@
 <?php
 
-use AdBlast\ElevenLabs\ElevenLabsClient;
-use AdBlast\ElevenLabs\Resources\Music;
-use AdBlast\ElevenLabs\Resources\SoundEffects;
-use AdBlast\ElevenLabs\Resources\TextToSpeech;
-use AdBlast\ElevenLabs\Resources\Voices;
-use AdBlast\ElevenLabs\Support\Transporter\BaseUri;
-use AdBlast\ElevenLabs\Support\Transporter\Headers;
-use AdBlast\ElevenLabs\Support\Transporter\HttpTransporter;
+use ElevenLabs\ElevenLabsClient;
+use ElevenLabs\Resources\Music;
+use ElevenLabs\Resources\SoundEffects;
+use ElevenLabs\Resources\TextToSpeech;
+use ElevenLabs\Resources\Voices;
+use ElevenLabs\Support\Transporter\BaseUri;
+use ElevenLabs\Support\Transporter\Headers;
+use ElevenLabs\Support\Transporter\HttpTransporter;
 use GuzzleHttp\Client as GuzzleClient;
 use Mockery;
 
@@ -64,5 +64,5 @@ it('returns voices resource', function () {
 it('factory returns factory instance', function () {
     $factory = ElevenLabsClient::factory();
 
-    expect($factory)->toBeInstanceOf(\AdBlast\ElevenLabs\ElevenLabsClientFactory::class);
+    expect($factory)->toBeInstanceOf(\ElevenLabs\ElevenLabsClientFactory::class);
 });

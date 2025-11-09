@@ -1,6 +1,6 @@
 <?php
 
-namespace AdBlast\ElevenLabs\Support\Transporter;
+namespace ElevenLabs\Support\Transporter;
 
 class BaseUri
 {

@@ -1,7 +1,7 @@
 <?php
 
-use AdBlast\ElevenLabs\Exceptions\ApiException;
-use AdBlast\ElevenLabs\Support\Transporter\Response;
+use ElevenLabs\Exceptions\ApiException;
+use ElevenLabs\Support\Transporter\Response;
 use GuzzleHttp\Psr7\Response as PsrResponse;
 use Psr\Http\Message\StreamInterface;
 

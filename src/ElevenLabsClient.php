@@ -1,15 +1,15 @@
 <?php
 
-namespace AdBlast\ElevenLabs;
+namespace ElevenLabs;
 
-use AdBlast\ElevenLabs\Resources\Music;
-use AdBlast\ElevenLabs\Resources\SoundEffects;
-use AdBlast\ElevenLabs\Resources\TextToSpeech;
-use AdBlast\ElevenLabs\Resources\Voices;
-use AdBlast\ElevenLabs\Support\Transporter\BaseUri;
-use AdBlast\ElevenLabs\Support\Transporter\Headers;
-use AdBlast\ElevenLabs\Support\Transporter\HttpTransporter;
-use AdBlast\ElevenLabs\Support\Transporter\Transporter;
+use ElevenLabs\Resources\Music;
+use ElevenLabs\Resources\SoundEffects;
+use ElevenLabs\Resources\TextToSpeech;
+use ElevenLabs\Resources\Voices;
+use ElevenLabs\Support\Transporter\BaseUri;
+use ElevenLabs\Support\Transporter\Headers;
+use ElevenLabs\Support\Transporter\HttpTransporter;
+use ElevenLabs\Support\Transporter\Transporter;
 use GuzzleHttp\Client as GuzzleClient;
 
 class ElevenLabsClient

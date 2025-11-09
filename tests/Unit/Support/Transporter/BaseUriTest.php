@@ -1,6 +1,6 @@
 <?php
 
-use AdBlast\ElevenLabs\Support\Transporter\BaseUri;
+use ElevenLabs\Support\Transporter\BaseUri;
 
 it('has default base uri', function () {
     $baseUri = new BaseUri();

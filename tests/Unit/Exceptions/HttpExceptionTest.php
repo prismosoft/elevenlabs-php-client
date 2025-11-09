@@ -1,6 +1,6 @@
 <?php
 
-use AdBlast\ElevenLabs\Exceptions\HttpException;
+use ElevenLabs\Exceptions\HttpException;
 
 it('can be instantiated', function () {
     $exception = new HttpException('Test message');

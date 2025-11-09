@@ -1,6 +1,6 @@
 <?php
 
-use AdBlast\ElevenLabs\Support\Transporter\QueryParams;
+use ElevenLabs\Support\Transporter\QueryParams;
 
 it('starts empty', function () {
     $params = new QueryParams();

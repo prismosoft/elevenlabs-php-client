@@ -1,6 +1,6 @@
 <?php
 
-namespace AdBlast\ElevenLabs\Tests;
+namespace ElevenLabs\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 

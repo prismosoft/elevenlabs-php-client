@@ -11,7 +11,7 @@
 |
 */
 
-uses(AdBlast\ElevenLabs\Tests\TestCase::class)->in('Unit');
+uses(ElevenLabs\Tests\TestCase::class)->in('Unit');
 
 /*
 |--------------------------------------------------------------------------

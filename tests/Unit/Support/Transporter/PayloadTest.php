@@ -1,6 +1,6 @@
 <?php
 
-use AdBlast\ElevenLabs\Support\Transporter\Payload;
+use ElevenLabs\Support\Transporter\Payload;
 
 it('can be created from array', function () {
     $payload = Payload::fromArray(['key' => 'value']);

@@ -1,7 +1,7 @@
 <?php
 
-use AdBlast\ElevenLabs\ElevenLabsClient;
-use AdBlast\ElevenLabs\ElevenLabsClientFactory;
+use ElevenLabs\ElevenLabsClient;
+use ElevenLabs\ElevenLabsClientFactory;
 
 it('can create client with api key', function () {
     $client = ElevenLabsClient::factory()

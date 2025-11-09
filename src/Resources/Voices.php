@@ -1,12 +1,12 @@
 <?php
 
-namespace AdBlast\ElevenLabs\Resources;
+namespace ElevenLabs\Resources;
 
-use AdBlast\ElevenLabs\Support\Transporter\BaseUri;
-use AdBlast\ElevenLabs\Support\Transporter\Headers;
-use AdBlast\ElevenLabs\Support\Transporter\QueryParams;
-use AdBlast\ElevenLabs\Support\Transporter\Response;
-use AdBlast\ElevenLabs\Support\Transporter\Transporter;
+use ElevenLabs\Support\Transporter\BaseUri;
+use ElevenLabs\Support\Transporter\Headers;
+use ElevenLabs\Support\Transporter\QueryParams;
+use ElevenLabs\Support\Transporter\Response;
+use ElevenLabs\Support\Transporter\Transporter;
 use GuzzleHttp\Psr7\Request;
 
 class Voices

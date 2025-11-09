@@ -1,10 +1,10 @@
 <?php
 
-namespace AdBlast\ElevenLabs;
+namespace ElevenLabs;
 
-use AdBlast\ElevenLabs\Support\Transporter\BaseUri;
-use AdBlast\ElevenLabs\Support\Transporter\Headers;
-use AdBlast\ElevenLabs\Support\Transporter\HttpTransporter;
+use ElevenLabs\Support\Transporter\BaseUri;
+use ElevenLabs\Support\Transporter\Headers;
+use ElevenLabs\Support\Transporter\HttpTransporter;
 use GuzzleHttp\Client as GuzzleClient;
 
 class ElevenLabsClientFactory

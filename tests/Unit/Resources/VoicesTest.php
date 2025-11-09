@@ -1,10 +1,10 @@
 <?php
 
-use AdBlast\ElevenLabs\Resources\Voices;
-use AdBlast\ElevenLabs\Support\Transporter\BaseUri;
-use AdBlast\ElevenLabs\Support\Transporter\Headers;
-use AdBlast\ElevenLabs\Support\Transporter\HttpTransporter;
-use AdBlast\ElevenLabs\Support\Transporter\Response;
+use ElevenLabs\Resources\Voices;
+use ElevenLabs\Support\Transporter\BaseUri;
+use ElevenLabs\Support\Transporter\Headers;
+use ElevenLabs\Support\Transporter\HttpTransporter;
+use ElevenLabs\Support\Transporter\Response;
 use Mockery;
 
 it('can be instantiated', function () {

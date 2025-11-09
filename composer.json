@@ -1,16 +1,16 @@
 {
-    "name": "adblast/elevenlabs-php-client",
+    "name": "prismosoft/elevenlabs-php-client",
     "description": "ElevenLabs API client for PHP",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "AdBlast\\ElevenLabs\\": "src/"
+            "levenLabs\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AdBlast\\ElevenLabs\\Tests\\": "tests/"
+            "ElevenLabs\\Tests\\": "tests/"
         }
     },
     "require": {

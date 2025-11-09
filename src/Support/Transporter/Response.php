@@ -1,8 +1,8 @@
 <?php
 
-namespace AdBlast\ElevenLabs\Support\Transporter;
+namespace ElevenLabs\Support\Transporter;
 
-use AdBlast\ElevenLabs\Exceptions\ApiException;
+use ElevenLabs\Exceptions\ApiException;
 use Psr\Http\Message\ResponseInterface;
 
 class Response

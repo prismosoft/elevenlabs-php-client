@@ -1,6 +1,6 @@
 <?php
 
-use AdBlast\ElevenLabs\Exceptions\ApiException;
+use ElevenLabs\Exceptions\ApiException;
 
 it('can be instantiated', function () {
     $exception = new ApiException('Test message');

@@ -1,11 +1,11 @@
 <?php
 
-use AdBlast\ElevenLabs\Exceptions\ApiException;
-use AdBlast\ElevenLabs\Resources\SoundEffects;
-use AdBlast\ElevenLabs\Support\Transporter\BaseUri;
-use AdBlast\ElevenLabs\Support\Transporter\Headers;
-use AdBlast\ElevenLabs\Support\Transporter\HttpTransporter;
-use AdBlast\ElevenLabs\Support\Transporter\Response;
+use ElevenLabs\Exceptions\ApiException;
+use ElevenLabs\Resources\SoundEffects;
+use ElevenLabs\Support\Transporter\BaseUri;
+use ElevenLabs\Support\Transporter\Headers;
+use ElevenLabs\Support\Transporter\HttpTransporter;
+use ElevenLabs\Support\Transporter\Response;
 use Mockery;
 
 it('can be instantiated', function () {

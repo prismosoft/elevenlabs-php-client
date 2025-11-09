@@ -1,6 +1,6 @@
 <?php
 
-use AdBlast\ElevenLabs\Exceptions\ValidationException;
+use ElevenLabs\Exceptions\ValidationException;
 
 it('can be instantiated', function () {
     $exception = new ValidationException('Test message');

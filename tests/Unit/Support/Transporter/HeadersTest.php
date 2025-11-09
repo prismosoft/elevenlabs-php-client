@@ -1,7 +1,7 @@
 <?php
 
-use AdBlast\ElevenLabs\Exceptions\ValidationException;
-use AdBlast\ElevenLabs\Support\Transporter\Headers;
+use ElevenLabs\Exceptions\ValidationException;
+use ElevenLabs\Support\Transporter\Headers;
 
 it('has default headers', function () {
     $headers = new Headers();

@@ -1,8 +1,8 @@
 <?php
 
-namespace AdBlast\ElevenLabs\Support\Transporter;
+namespace ElevenLabs\Support\Transporter;
 
-use AdBlast\ElevenLabs\Exceptions\HttpException;
+use ElevenLabs\Exceptions\HttpException;
 use GuzzleHttp\ClientInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace AdBlast\ElevenLabs\Exceptions;
+namespace ElevenLabs\Exceptions;
 
 class HttpException extends ElevenLabsException
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace AdBlast\ElevenLabs\Support\Transporter;
+namespace ElevenLabs\Support\Transporter;
 
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;

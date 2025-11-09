@@ -1,13 +1,13 @@
 <?php
 
-namespace AdBlast\ElevenLabs\Resources;
+namespace ElevenLabs\Resources;
 
-use AdBlast\ElevenLabs\Exceptions\ApiException;
-use AdBlast\ElevenLabs\Support\Transporter\BaseUri;
-use AdBlast\ElevenLabs\Support\Transporter\Headers;
-use AdBlast\ElevenLabs\Support\Transporter\Payload;
-use AdBlast\ElevenLabs\Support\Transporter\Response;
-use AdBlast\ElevenLabs\Support\Transporter\Transporter;
+use ElevenLabs\Exceptions\ApiException;
+use ElevenLabs\Support\Transporter\BaseUri;
+use ElevenLabs\Support\Transporter\Headers;
+use ElevenLabs\Support\Transporter\Payload;
+use ElevenLabs\Support\Transporter\Response;
+use ElevenLabs\Support\Transporter\Transporter;
 use GuzzleHttp\Psr7\Request;
 
 class Music

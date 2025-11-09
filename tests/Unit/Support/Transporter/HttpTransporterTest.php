@@ -1,7 +1,7 @@
 <?php
 
-use AdBlast\ElevenLabs\Exceptions\HttpException;
-use AdBlast\ElevenLabs\Support\Transporter\HttpTransporter;
+use ElevenLabs\Exceptions\HttpException;
+use ElevenLabs\Support\Transporter\HttpTransporter;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
