@@ -6,6 +6,7 @@ use ElevenLabs\Resources\Music;
 use ElevenLabs\Resources\SoundEffects;
 use ElevenLabs\Resources\TextToSpeech;
 use ElevenLabs\Resources\VoiceDesign;
+use ElevenLabs\Resources\VoiceLibrary;
 use ElevenLabs\Resources\Voices;
 use ElevenLabs\Support\Transporter\BaseUri;
 use ElevenLabs\Support\Transporter\Headers;
@@ -49,6 +50,11 @@ readonly class ElevenLabsClient
     public function voiceDesign(): VoiceDesign
     {
         return new VoiceDesign($this->transporter, $this->baseUri, $this->headers);
+    }
+
+    public function voiceLibrary(): VoiceLibrary
+    {
+        return new VoiceLibrary($this->transporter, $this->baseUri, $this->headers);
     }
 
     public function textToVoice(): VoiceDesign

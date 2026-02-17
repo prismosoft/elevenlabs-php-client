@@ -5,6 +5,7 @@ use ElevenLabs\Resources\Music;
 use ElevenLabs\Resources\SoundEffects;
 use ElevenLabs\Resources\TextToSpeech;
 use ElevenLabs\Resources\VoiceDesign;
+use ElevenLabs\Resources\VoiceLibrary;
 use ElevenLabs\Resources\Voices;
 use ElevenLabs\Support\Transporter\BaseUri;
 use ElevenLabs\Support\Transporter\Headers;
@@ -70,6 +71,16 @@ it('returns voice design resource', function () {
     $client = new ElevenLabsClient($transporter, $baseUri, $headers);
 
     expect($client->voiceDesign())->toBeInstanceOf(VoiceDesign::class);
+});
+
+it('returns voice library resource', function () {
+    $transporter = Mockery::mock(HttpTransporter::class);
+    $baseUri = new BaseUri();
+    $headers = new Headers();
+
+    $client = new ElevenLabsClient($transporter, $baseUri, $headers);
+
+    expect($client->voiceLibrary())->toBeInstanceOf(VoiceLibrary::class);
 });
 
 it('returns text to voice resource alias', function () {
