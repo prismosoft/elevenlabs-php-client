@@ -4,6 +4,7 @@ use ElevenLabs\ElevenLabsClient;
 use ElevenLabs\Resources\Music;
 use ElevenLabs\Resources\SoundEffects;
 use ElevenLabs\Resources\TextToSpeech;
+use ElevenLabs\Resources\VoiceDesign;
 use ElevenLabs\Resources\Voices;
 use ElevenLabs\Support\Transporter\BaseUri;
 use ElevenLabs\Support\Transporter\Headers;
@@ -59,6 +60,26 @@ it('returns voices resource', function () {
     $client = new ElevenLabsClient($transporter, $baseUri, $headers);
 
     expect($client->voices())->toBeInstanceOf(Voices::class);
+});
+
+it('returns voice design resource', function () {
+    $transporter = Mockery::mock(HttpTransporter::class);
+    $baseUri = new BaseUri();
+    $headers = new Headers();
+
+    $client = new ElevenLabsClient($transporter, $baseUri, $headers);
+
+    expect($client->voiceDesign())->toBeInstanceOf(VoiceDesign::class);
+});
+
+it('returns text to voice resource alias', function () {
+    $transporter = Mockery::mock(HttpTransporter::class);
+    $baseUri = new BaseUri();
+    $headers = new Headers();
+
+    $client = new ElevenLabsClient($transporter, $baseUri, $headers);
+
+    expect($client->textToVoice())->toBeInstanceOf(VoiceDesign::class);
 });
 
 it('factory returns factory instance', function () {
