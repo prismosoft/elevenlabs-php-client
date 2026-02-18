@@ -30,6 +30,16 @@ $client = ElevenLabsClient::factory()
 $response = $client->textToSpeech()
     ->withVoiceId('voice-id')
     ->withText('Hello world')
+    ->withModelId('eleven_multilingual_v2')
+    ->withOutputFormat('mp3_44100_128')
+    ->enableLogging(true)
+    ->withVoiceSettings([
+        'stability' => 0.5,
+        'similarity_boost' => 0.75,
+        'style' => 0.2,
+        'use_speaker_boost' => true,
+        'speed' => 1.0,
+    ])
     ->withTimestamps()
     ->generate();
 
